@@ -1,3 +1,45 @@
 img{
     width: 100px;
 }
+.main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+   
+   padding: 5vw 25vw;
+}
+
+input{
+    width: 100%;
+    padding: 9px 25px;
+    font-weight: 800;
+    border: 1px solid #b8b3ea;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.person{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    padding-top: 20px;
+   
+}
+.person img{
+    width: 5vw;
+    height: 5vh;
+    object-fit: cover;
+}
